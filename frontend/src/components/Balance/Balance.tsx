@@ -1,6 +1,6 @@
 import { memo, useCallback, useState } from "react";
 import { Input, Form, Button, Spin } from "antd";
-import { getCall } from "../../utils/axios/methods";
+import { getCall } from "../../utils/apiServices/axios.service";
 import { endPoints } from "../../utils/constants";
 import { ethereumAddressRule } from "../TokenTransfer/TokenTransfer";
 

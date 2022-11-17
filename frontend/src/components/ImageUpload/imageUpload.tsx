@@ -3,7 +3,7 @@ import { Upload } from "antd";
 import type { UploadChangeParam } from "antd/es/upload";
 import type { RcFile, UploadFile, UploadProps } from "antd/es/upload/interface";
 import React, { useState } from "react";
-import { putFileToS3 } from "../../utils/axios/s3.service";
+import { putFileToS3 } from "../../utils/apiServices/s3.service";
 import { beforeUpload, getBase64 } from "./service";
 
 const ImageUpload = (props: { preSignedUrl: string; imageReload: any }) => {

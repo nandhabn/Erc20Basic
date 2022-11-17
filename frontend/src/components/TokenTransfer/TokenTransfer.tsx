@@ -1,7 +1,7 @@
 import { memo, useCallback, useState } from "react";
 import { Input, Form, Button, Spin } from "antd";
 import { utils, BigNumber } from "ethers";
-import { postCall } from "../../utils/axios/methods";
+import { postCall } from "../../utils/apiServices/axios.service";
 import { endPoints } from "../../utils/constants";
 
 export const ethereumAddressRule = async (_: any, value: string) => {

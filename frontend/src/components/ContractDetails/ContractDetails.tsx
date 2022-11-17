@@ -1,5 +1,5 @@
 import { memo, useEffect, useState } from "react";
-import { getCall } from "../../utils/axios/methods";
+import { getCall } from "../../utils/apiServices/axios.service";
 import { endPoints } from "../../utils/constants";
 
 type ContractDetailsType = {
